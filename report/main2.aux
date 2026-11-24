@@ -1,0 +1,65 @@
+\relax 
+\providecommand \babel@aux [2]{\global \let \babel@toc \@gobbletwo }
+\@nameuse{bbl@beforestart}
+\catcode `"\active 
+\citation{main}
+\babel@aux{russian}{}
+\@writefile{toc}{\contentsline {section}{\numberline {1}Модель}{1}{}\protected@file@percent }
+\newlabel{eq:nonlin_ode}{{4}{1}{}{equation.4}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {2}Численная схема}{2}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {3}Обоснование порядка точности}{2}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.1}Разложение точного решения}{2}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2}Разложение численного оператора}{2}{}\protected@file@percent }
+\citation{main}
+\citation{main}
+\citation{main}
+\citation{main}
+\citation{main}
+\citation{main}
+\@writefile{toc}{\contentsline {section}{\numberline {4}Тесты на порядок сходимости}{3}{}\protected@file@percent }
+\newlabel{eq:bright_soliton}{{8}{3}{}{equation.8}{}}
+\newlabel{eq:eta_A}{{9}{3}{}{equation.9}{}}
+\newlabel{eq:xi}{{10}{3}{}{equation.10}{}}
+\newlabel{eq:conditions}{{11}{3}{}{equation.11}{}}
+\newlabel{eq:params}{{12}{3}{}{equation.12}{}}
+\newlabel{eq:params_model}{{13}{3}{}{equation.13}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.1}Мера ошибки}{3}{}\protected@file@percent }
+\citation{main}
+\@writefile{toc}{\contentsline {section}{\numberline {5}Результаты верификации}{4}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.1}Корректный параметр \(\delta = \delta _{\mathrm  {exact}}\), непериодическое решение}{4}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces Сравнение численного (сплошная линия) и аналитического (пунктир) профилей $|u(z,t)|$ при $\delta = \delta _{\mathrm  {exact}} = 0.589286$, $z = z_{\max }$. Различия неразличимы в масштабе графика; максимальная относительная ошибка соответствует значению на рис.~\ref {fig:convergence_correct}.}}{4}{}\protected@file@percent }
+\newlabel{fig:profile_correct}{{1}{4}{}{figure.1}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.2}Округлённый параметр \(\delta = 0.59\): деградация порядка}{4}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {6}Проверка на зацикленной сетке}{4}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces Сходимость по $\Delta z$ при $\delta = \delta _{\mathrm  {exact}} = 0.589286$. Наклон аппроксимирующей прямой $k \approx 2.0$, что подтверждает второй порядок схемы Стренга по $\Delta z$.}}{5}{}\protected@file@percent }
+\newlabel{fig:convergence_correct}{{2}{5}{}{figure.2}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces Сходимость по $\Delta z$ при $\delta = 0.59$ (статья). Порядок сходимости нарушен: ошибка не убывает с теоретическим наклоном 2 из-за неустранимой составляющей, связанной с тем, что~\eqref  {eq:bright_soliton} не является точным решением при данном $\delta $.}}{5}{}\protected@file@percent }
+\newlabel{fig:convergence_rounded}{{3}{5}{}{figure.3}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.1}Большой интервал по \(t\): эталон без зацикливания}{6}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces Широкое окно (\(t \in [-80, 80]\)): (a) профиль \(|u(z,t)|\), солитон свободно движется без зацикливания; (b) сходимость по \(\Delta z\) с наклоном \(k \approx 2.0\). Эталонный случай.}}{6}{}\protected@file@percent }
+\newlabel{fig:cyclic_wide}{{4}{6}{}{figure.4}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.2}Уменьшение интервала по \(t\): появление зацикливания}{6}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.3}Уменьшение шага \(\Delta t\): восстановление порядка}{6}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.4}Ошибка взятия модуля}{6}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces Узкое окно (\(t \in [-10, 10]\)), \(\Delta t = 0.021\): (a) профиль с видимыми артефактами зацикливания на границах; (b) сходимость по \(\Delta z\) с выходом на плато. Порядок падает из-за субпиксельной ошибки сдвига.}}{7}{}\protected@file@percent }
+\newlabel{fig:cyclic_narrow_coarse}{{5}{7}{}{figure.5}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {6}{\ignorespaces Узкое окно (\(t \in [-10, 10]\)), \(\Delta t = 0.005\): (a) профиль без видимых артефактов; (b) сходимость по \(\Delta z\) с восстановленным наклоном \(k \approx 2.0\). Уменьшение \(\Delta t\) подавляет ошибку субпиксельного сдвига.}}{7}{}\protected@file@percent }
+\newlabel{fig:cyclic_narrow_fine}{{6}{7}{}{figure.6}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7}{\ignorespaces Сравнение полной ошибки \(|u_{\mathrm  {num}} - u_{\mathrm  {an}}|\) (тёмные маркеры) и ошибки модуля \(\bigl  ||u_{\mathrm  {num}}| - |u_{\mathrm  {an}}|\bigr  |\) (светлые маркеры). Ошибка модуля занижает истинную погрешность и может маскировать проблемы с фазовой согласованностью схемы.}}{8}{}\protected@file@percent }
+\newlabel{fig:modulus_error}{{7}{8}{}{figure.7}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {7}Спектральный анализ и конфигурации для исследования расщепления}{8}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.1}Спектры Фурье}{8}{}\protected@file@percent }
+\citation{main}
+\citation{main}
+\citation{main}
+\citation{main}
+\citation{main}
+\bibcite{main}{1}
+\@writefile{lof}{\contentsline {figure}{\numberline {8}{\ignorespaces Эволюция спектра \(|\tilde  u(\omega , z)|^2\): (a) стабильный солитон (\(\gamma = \gamma _{\mathrm  {ref}}\)), спектр сохраняется; (b) режим расщепления (\(\gamma = 2\gamma _{\mathrm  {ref}}\)), видны боковые пики и рост дисперсионного фона.}}{9}{}\protected@file@percent }
+\newlabel{fig:spectra}{{8}{9}{}{figure.8}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.2}Конфигурации параметров для исследования расщепления}{9}{}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {1}{\ignorespaces Матрица конфигураций для исследования расщепления импульсов.}}{10}{}\protected@file@percent }
+\newlabel{tab:splitting_configs}{{1}{10}{}{table.1}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {9}{\ignorespaces Карта динамических режимов связанной системы УГЛ. Границы определяются балансом нелинейности, межмодового обмена и дисперсии.}}{10}{}\protected@file@percent }
+\newlabel{fig:regime_map}{{9}{10}{}{figure.9}{}}
+\gdef \@abspage@last{10}
